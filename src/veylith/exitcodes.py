@@ -1,0 +1,14 @@
+"""Veylith stable exit codes as specified in §15."""
+
+from __future__ import annotations
+
+EXIT_OK: int = 0
+EXIT_GENERIC_FAILURE: int = 1
+EXIT_USAGE_ERROR: int = 2
+EXIT_AUTHORIZATION_MISSING: int = 3
+EXIT_INTEGRITY_FAILED: int = 4
+EXIT_UNSUPPORTED_ARTIFACT: int = 5
+EXIT_REQUIRED_PROVIDER_UNAVAILABLE: int = 6
+EXIT_GATE_FAILED: int = 7
+EXIT_SANDBOX_UNAVAILABLE_OR_UNSAFE: int = 8
+EXIT_CANCELLED: int = 130
